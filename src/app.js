@@ -12,3 +12,6 @@ export default app;
 import userRoutes from "./routes/user.Routes.js";
 
 app.use("/users", userRoutes);
+import taskRoutes from "./routes/taskRoutes.js";
+
+app.use("/tasks", taskRoutes);
